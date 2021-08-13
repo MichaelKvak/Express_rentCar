@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css" media="screen,projection" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>
+        <%= title %>
+      </h1>
+    </header>
+    <main class="main">
+      <%for(var i=0; i<arr.length; i++ ) {%>
+        <table class="maket">
+          <tr>
+            <td class="left">
+              <%= arr[i]%>
+            </td>
+            <td class="left">
+              <%= text[i]%>
+            </td>
+            <td>
+              <label>
+                <input type="checkbox" class="filled-in" />
+                <span>take car</span>
+              </label>
+            </td>
+          </tr>
+        </table>
+        <%}%>
+          <form action="#">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span>have driver's license</span>
+              </label>
+            </p>
+          </form>
+    </main>
+
+    <%-include('footer.ejs')%>
+
+  </div>
+  <script type="text/javascript" src="javascripts/materialize.min.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+  padding: 20px;
+  background-color: #d6e8f0;
+}
+
+footer {
+  background-color: #b8dfee;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(102, 185, 211);
+}
+.maket {
+  width: 100%;
+}
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+.left {
+  background-color: #ccc;
+  width: 70px;
+}
+table {
+  margin: 0 auto;
+}
+tr:hover td {
+  background: #b4fff2;
+}

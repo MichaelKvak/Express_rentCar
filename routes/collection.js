@@ -7,6 +7,8 @@ router.get("/", function (req, res, next) {
     title: "Rent car service",
     arr: [1, 2, 3, 4, 5],
     text: ["mazda", "bmw", "vw", "reno", "porsche"],
+    arr2: ["male", "driving category", "driving category", "driving category"],
+    arr3: ["female", "a", "b", "c"],
   });
 });
 

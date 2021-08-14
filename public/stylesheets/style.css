@@ -41,3 +41,26 @@ table {
 tr:hover td {
   background: #b4fff2;
 }
+.switch {
+  padding: 10px;
+}
+.experience {
+  padding: 15px;
+}
+.thnks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(102, 185, 211);
+}
+.map {
+  position: absolute;
+  bottom: 70px;
+}
+.optionCar {
+  display: flex;
+  flex-direction: row;
+}
+.arrayNew {
+  margin-left: 20px;
+}

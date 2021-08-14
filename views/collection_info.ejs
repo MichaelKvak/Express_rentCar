@@ -14,11 +14,16 @@
 
   <div class="wrapper">
     <header>
+      <div class="imgLogo">
+        <%for(var i=0; i<arrayCar.length; i++ ) {%>
+          <img style="width:120px; height: 80px" src=<%=arrayCar[i]%>>
+          <%}%>
+      </div>
       <h1>
         <%= title %>
       </h1>
     </header>
-    <main class="main">
+    <main class=" main">
       <%for(var i=0; i<arr.length; i++ ) {%>
         <table class="maket">
           <tr>

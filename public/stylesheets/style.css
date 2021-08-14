@@ -24,6 +24,11 @@ header {
   text-align: center;
   background-color: rgb(102, 185, 211);
 }
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(102, 185, 211);
+}
 .maket {
   width: 100%;
 }
@@ -63,4 +68,8 @@ tr:hover td {
 }
 .arrayNew {
   margin-left: 20px;
+}
+.imgLogo {
+  display: flex;
+  flex-direction: row;
 }

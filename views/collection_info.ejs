@@ -19,7 +19,7 @@
           <img style="width:120px; height: 80px" src=<%=arrayCar[i]%>>
           <%}%>
       </div>
-      <h1>
+      <h1 class="title">
         <%= title %>
       </h1>
     </header>
@@ -88,10 +88,12 @@
             </form>
           </div>
           <div>
-            <a class="waves-effect waves-light btn-large" href="/">accept</a>
+            <a class="waves-effect waves-light btn-large" href="/collection">accept</a>
           </div>
     </main>
-    <%-include('footer.ejs')%>
+    <span class="footer">
+      <%-include('footer.ejs')%>
+    </span>
 
   </div>
   <script type="text/javascript" src="javascripts/materialize.min.js">

@@ -8,26 +8,40 @@ body {
   display: flex;
   flex-direction: column;
 }
+.wrapp {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
 .main {
   flex: 1 1 auto;
   padding: 20px;
-  background-color: #d6e8f0;
+  background-color: #f0f3f5;
+}
+.maine {
+  background-image: url(https://img1.goodfon.ru/original/1920x1080/9/f4/bmw-m3-bmv-chernyy-dvigatel.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  flex: 1 1 auto;
+  padding: 20px;
 }
 
 footer {
-  background-color: #b8dfee;
+  background-color: #000000;
   padding: 20px;
   text-align: center;
 }
 header {
   padding: 10px;
   text-align: center;
-  background-color: rgb(102, 185, 211);
+  background-color: rgb(0, 0, 0);
 }
 .header {
   padding: 30px;
   text-align: center;
-  background-color: rgb(102, 185, 211);
+  background-color: rgb(0, 0, 0);
 }
 .maket {
   width: 100%;
@@ -44,7 +58,7 @@ table {
   margin: 0 auto;
 }
 tr:hover td {
-  background: #b4fff2;
+  background: #9e9e9e;
 }
 .switch {
   padding: 10px;
@@ -56,10 +70,15 @@ tr:hover td {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(102, 185, 211);
+  color: rgb(253, 253, 253);
 }
 .map {
   position: absolute;
+  bottom: 70px;
+}
+.videoBMW {
+  position: absolute;
+  margin-left: 1350px;
   bottom: 70px;
 }
 .optionCar {
@@ -72,4 +91,17 @@ tr:hover td {
 .imgLogo {
   display: flex;
   flex-direction: row;
+}
+.title {
+  color: aliceblue;
+}
+.footer {
+  color: aliceblue;
+}
+.li {
+  list-style-type: none;
+}
+.aboutCar2 {
+  margin-left: 285px;
+  margin-top: -330px;
 }
